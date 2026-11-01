@@ -1,0 +1,19 @@
+[Unit]
+Description=AmirKala shop
+After=network.target
+
+[Service]
+User=amirkala
+WorkingDirectory=/opt/amirkala
+EnvironmentFile=/etc/amirkala.env
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/amirkala
+
+[Install]
+WantedBy=multi-user.target
