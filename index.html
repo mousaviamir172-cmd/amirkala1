@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>امیرکالا | فروشگاه اینترنتی </title>
+<title>امیرکالا | فروشگاه اینترنتی (نسخه دمو)</title>
 <meta name="description" content="امیرکالا؛ خرید آنلاین موبایل، لپ‌تاپ، مد و لوازم خانگی با ارسال سریع و ضمانت اصالت">
 <meta name="theme-color" content="#7c3aed">
 <meta property="og:title" content="امیرکالا | فروشگاه اینترنتی">
@@ -143,11 +143,11 @@ tbody tr{transition:.25s}tbody tr:hover{background:var(--bg)}
 .cat i svg{width:44px;height:44px;display:block;margin:0 auto 6px}
 .th{display:inline-grid;width:44px;height:44px;border-radius:12px;overflow:hidden;background:linear-gradient(135deg,#e9e7ff,#fff);padding:5px}.th svg,.th img{width:100%;height:100%;object-fit:cover}
 .float svg{width:1em;height:1em;display:block}
-#ad{display:none}
 </style>
 </head>
 <body>
 <div id="pre"><div class="logo">امیرکالا</div></div><div id="pg"></div><div id="gl"></div>
+<div style="background:#f59e0b;color:#2a1b00;text-align:center;font-size:13px;padding:6px 10px;font-weight:700">نسخه‌ی نمایشی — سفارش‌ها و پرداخت‌ها واقعی نیستند و برای کسی ارسال نمی‌شوند</div>
 <header>
 <div class="bar">
 <div class="logo">امیرکالا</div>
@@ -189,7 +189,7 @@ tbody tr{transition:.25s}tbody tr:hover{background:var(--bg)}
 <footer>© ۱۴۰۵ امیرکالا — ساخته‌شده با ❤️ برای خریدی لذت‌بخش</footer>
 
 <div id="adm"><aside class="as"><div class="logo">امیرکالا</div><a class="on">📊 داشبورد</a><a>📦 سفارش‌ها</a><a>🛍️ محصولات</a><a>👥 کاربران</a><a>🧾 لاگ‌ها</a><a>⚙️ تنظیمات</a></aside>
-<section class="am"><div class="ah"><h2>داشبورد مدیریت</h2><span class="live">● زنده</span><button class="ib" id="lo" title="خروج">⏻</button><button class="ib" id="ax">✕</button></div>
+<section class="am"><div class="ah"><h2>داشبورد مدیریت</h2><span class="live">● زنده</span><button class="ib" id="ax">✕</button></div>
 <div class="kp"><div class="kc"><small>فروش امروز (تومان)</small><b data-v="48250000">۰</b><em>▲ ۱۲٪ نسبت به دیروز</em></div><div class="kc"><small>سفارش‌های جدید</small><b data-v="386">۰</b><em>▲ ۸٪</em></div><div class="kc"><small>بازدیدکننده آنلاین</small><b data-v="1294">۰</b><em>▲ ۲۱٪</em></div><div class="kc"><small>نرخ تبدیل (٪)</small><b data-v="4">۰</b><em style="color:#f59e0b">▼ ۱٪</em></div></div>
 <div class="two"><div class="pn"><h3>روند فروش ۱۴ روز اخیر</h3><svg id="ch" viewBox="0 0 600 200" preserveAspectRatio="none"><defs><linearGradient id="gg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c3aed" stop-opacity=".5"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient></defs><path id="ar" fill="url(#gg)"/><path id="ln" pathLength="1" fill="none" stroke="#ff2e63" stroke-width="3" vector-effect="non-scaling-stroke"/></svg></div>
 <div class="pn"><h3>لاگ زنده سیستم</h3><div id="lg"></div></div></div>
@@ -202,7 +202,19 @@ tbody tr{transition:.25s}tbody tr:hover{background:var(--bg)}
 <div class="toast" id="t"></div>
 
 <script>
-const P=[];
+const P=[
+["گوشی موبایل هوشمند ۲۵۶ گیگ","📱",32900000,15,"linear-gradient(135deg,#c7d2fe,#a78bfa)"],
+["هدفون بی‌سیم نویزکنسلینگ","🎧",4850000,30,"linear-gradient(135deg,#fecdd3,#fb7185)"],
+["ساعت هوشمند ورزشی","⌚",6200000,20,"linear-gradient(135deg,#a7f3d0,#34d399)"],
+["لپ‌تاپ سبک ۱۴ اینچ","💻",58000000,10,"linear-gradient(135deg,#bae6fd,#38bdf8)"],
+["کفش ورزشی رانینگ","👟",3400000,40,"linear-gradient(135deg,#fde68a,#f59e0b)"],
+["دوربین دیجیتال حرفه‌ای","📷",41500000,12,"linear-gradient(135deg,#e9d5ff,#c084fc)"],
+["قهوه‌ساز اتوماتیک","☕",9700000,25,"linear-gradient(135deg,#fed7aa,#fb923c)"],
+["کنسول بازی نسل جدید","🎮",27800000,8,"linear-gradient(135deg,#99f6e4,#2dd4bf)"],
+["کوله‌پشتی ضدآب","🎒",1950000,35,"linear-gradient(135deg,#fbcfe8,#f472b6)"],
+["عطر ادکلن لوکس","🧴",5300000,18,"linear-gradient(135deg,#ddd6fe,#818cf8)"],
+["دوچرخه کوهستان","🚲",19400000,22,"linear-gradient(135deg,#bbf7d0,#4ade80)"],
+["کتاب‌خوان الکترونیکی","📚",7600000,15,"linear-gradient(135deg,#fef08a,#facc15)"]];
 const C=[["📱","موبایل"],["💻","لپ‌تاپ"],["👗","مد"],["🏠","خانه"],["💄","زیبایی"],["⚽","ورزش"],["📚","کتاب"],["🧸","اسباب‌بازی"]];
 const fa=n=>Number(n).toLocaleString('fa-IR');
 const $=id=>document.getElementById(id);
@@ -250,9 +262,11 @@ function route(){const o=location.hash==='#admin';A.classList.toggle('open',o);d
 $('ad').onclick=()=>{location.hash='admin'};$('ax').onclick=()=>{location.hash=''};onhashchange=route;
 let D=Array.from({length:14},()=>30+Math.random()*140);
 function ch(){const w=600/13,d='M'+D.map((v,i)=>(i*w)+','+(195-v)).join(' L');$('ln').setAttribute('d',d);$('ar').setAttribute('d',d+' L600,200 L0,200Z')}
-ch();
-const OR=[];
+ch();setInterval(()=>{D.shift();D.push(30+Math.random()*140);ch()},2200);
+const OR=[[10248,'علی رضایی',3200000,'ارسال شد','g'],[10247,'سارا محمدی',32900000,'در حال پردازش','y'],[10246,'رضا احمدی',4850000,'ارسال شد','g'],[10245,'مریم کریمی',1950000,'لغو شد','r'],[10244,'حسین موسوی',58000000,'در حال پردازش','y'],[10243,'نگار صادقی',9700000,'ارسال شد','g']];
 $('ot').innerHTML=OR.map(o=>`<tr><td>#${fa(o[0])}</td><td>${o[1]}</td><td>${fa(o[2])}</td><td><span class="bd ${o[4]}">${o[3]}</span></td></tr>`).join('');
+const M=['GET /api/products 200 12ms','POST /api/cart/add 201 8ms','user.signup new account','payment.ok order #'+10249,'GET /api/search?q=mobile 200','rate-limit near threshold','db.connection timeout 3000ms','backup.auto completed','admin.login success','cache.hit ratio 94%','POST /api/checkout 500'];
+setInterval(()=>{if(!A.classList.contains('open'))return;const r=Math.random(),l=r<.6?['INFO','#38bdf8']:r<.85?['OK','#34d399']:r<.95?['WARN','#fbbf24']:['ERROR','#fb7185'],d=document.createElement('div'),lg=$('lg');d.innerHTML=`<span style="color:#64748b">${new Date().toTimeString().slice(0,8)}</span> <b style="color:${l[1]}">${l[0]}</b> ${M[Math.random()*M.length|0]}`;lg.appendChild(d);while(lg.children.length>60)lg.firstChild.remove();lg.scrollTop=lg.scrollHeight},900);
 route();
 let so='',qt=1,oid=10249;
 const GR=['linear-gradient(135deg,#c7d2fe,#a78bfa)','linear-gradient(135deg,#fde68a,#f59e0b)','linear-gradient(135deg,#a7f3d0,#34d399)','linear-gradient(135deg,#fecdd3,#fb7185)'];
@@ -278,6 +292,129 @@ addEventListener('keydown',e=>{if(e.key=='Escape'){mx();tg(false);if(location.ha
 ro();pl();
 render();draw();obs();
 </script>
-<script src="/app.js"></script>
+<script>
+/* ===== AmirKala DEMO layer: data lives only in this browser (localStorage) ===== */
+const KEY='amk-demo-v1',E=s=>String(s??'').replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
+const CT=['همه','دیجیتال','مد و ورزش','خانه و آشپزخانه','زیبایی','کتاب'],CI={'همه':'🛍️','دیجیتال':'📱','مد و ورزش':'👟','خانه و آشپزخانه':'🏠','زیبایی':'💄','کتاب':'📚'};
+const SC={pending:['در انتظار','y'],shipped:['ارسال شد','g'],done:['تحویل شد','g'],canceled:['لغو شد','r']};
+let users={},orders=[],reviews={},codes={AMIR10:{pct:10},SALAM:{amt:200000}},U=null,ADM=false,cat='همه',promo=null,edi=-1,reg=0,pendingChk=0,ci={};
+[1,1,1,1,2,1,3,1,2,4,2,5].forEach((c,i)=>{P[i][6]=c;P[i][7]=50});
+const seed=()=>{const nm=['علی رضایی','سارا محمدی','رضا احمدی','مریم کریمی','حسین موسوی','نگار صادقی'];return nm.map((n,k)=>{const i=[0,1,4,6,3,8][k];return{id:10243+k,u:'demo'+(k%2),n,ph:'0912000000'+k,a:'تهران، خیابان نمونه، پلاک '+(k+1),items:[{n:P[i][0],q:1,p:P[i][2]}],total:P[i][2],code:'',st:['done','shipped','pending','done','canceled','pending'][k],t:Date.now()-k*5e7}})};
+try{const d=JSON.parse(localStorage.getItem(KEY)||'null');if(d){P.length=0;d.P.forEach(x=>P.push(x));users=d.users||{};orders=d.orders||[];reviews=d.reviews||{};codes=d.codes||codes;U=d.U||null}}catch{}
+if(!orders.length)orders=seed();
+oid=Math.max(oid,...orders.map(o=>o.id));
+function save(){try{localStorage.setItem(KEY,JSON.stringify({P,users,orders,reviews,codes,U}))}catch{}}
+async function sha(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+const stars=n=>'★'.repeat(n)+'☆'.repeat(5-n);
+function avg(i){const r=reviews[i]||[];return{c:r.length,a:r.length?r.reduce((a,x)=>a+x.s,0)/r.length:0}}
+
+/* ----- storefront: categories, cards, product page with reviews ----- */
+function cats(){$('cats').innerHTML=CT.map(c=>`<div class="cat" style="${c==cat?'border-color:var(--brand2);box-shadow:var(--shadow)':''}" onclick="cat='${c}';cats();render($('q').value.trim())"><i>${CI[c]}</i>${c}</div>`).join('')}
+function render(f=''){
+ const l=P.map((p,i)=>({p,i})).filter(o=>!o.p[5]&&(cat=='همه'||CT[o.p[6]]==cat)&&o.p[0].includes(f)).sort((a,b)=>so=='a'?a.p[2]-b.p[2]:so=='d'?b.p[2]-a.p[2]:so=='o'?b.p[3]-a.p[3]:0);
+ $('rc').textContent=fa(l.length)+' کالا';
+ $('grid').innerHTML=l.map(({p,i})=>{const old=Math.round(p[2]/(1-p[3]/100)),r=avg(i);
+ return `<article class="card rv" style="transition-delay:${(i%6)*70}ms">${p[3]?`<span class="off">${fa(p[3])}٪</span>`:''}<button class="hr" onclick="fv(this)">♡</button><div class="img" style="background:${p[4]};cursor:pointer" onclick="det(${i})"><span>${p[1]}</span></div><h3 style="cursor:pointer" onclick="det(${i})">${p[0]}</h3><div class="meta"><span>⭐ ${r.c?fa(r.a.toFixed(1))+' ('+fa(r.c)+')':'بدون نظر'}</span><span>${CT[p[6]]}</span></div><div class="price"><div>${p[3]?`<s>${fa(old)}</s>`:''}<b>${fa(p[2])} <small>تومان</small></b></div><button class="add" onclick="add(${i})">+</button></div></article>`}).join('');
+ obs()}
+function det(i){const p=P[i],r=avg(i);qt=1;
+ mo(`<button class='ib mxb' onclick='mx()'>✕</button><div class='img' style='background:${p[4]};height:180px;font-size:100px'><span>${p[1]}</span></div><h2 style='margin:12px 0 4px'>${p[0]}</h2><div style='color:var(--muted);font-size:13px'>${CT[p[6]]} • ⭐ ${r.c?fa(r.a.toFixed(1))+' از '+fa(r.c)+' نظر':'هنوز نظری ثبت نشده'} • موجودی ${fa(p[7])}</div><div class='price'><b style='font-size:21px'>${fa(p[2])} تومان</b><div class='qt'><button onclick='q(-1)'>−</button><span id='qn'>۱</span><button onclick='q(1)'>+</button></div></div><button class='cta fw' onclick='for(let k=0;k<qt;k++)add(${i});mx()'>افزودن به سبد</button><h3 style='margin:18px 0 8px'>نظرات</h3>${(reviews[i]||[]).slice().reverse().map(x=>`<div style='border-top:1px solid var(--line);padding:8px 0;font-size:13px'><b>${E(x.u)}</b> <span style='color:#f59e0b'>${stars(x.s)}</span><br>${E(x.t)}</div>`).join('')||'<p style="color:var(--muted);font-size:13px">اولین نظر را شما بنویسید</p>'}${U?`<div class='pf' style='margin-top:10px'><select id='rs' class='sl'>${[5,4,3,2,1].map(n=>`<option value='${n}'>${stars(n)}</option>`).join('')}</select><input id='rt' placeholder='نظر شما…' maxlength='200'><button class='add' style='width:auto;padding:0 14px' onclick='addRv(${i})'>ثبت</button></div>`:`<p style='font-size:13px;color:var(--muted)'>برای ثبت نظر <a style='color:var(--brand);cursor:pointer' onclick='authUI()'>وارد شوید</a></p>`}`)}
+function addRv(i){const t=$('rt').value.trim();if(t.length<3)return toast('متن نظر خیلی کوتاه است');(reviews[i]=reviews[i]||[]).push({u:U,s:+$('rs').value,t});save();det(i);render($('q').value.trim());toast('نظر شما ثبت شد ⭐')}
+
+/* ----- customer accounts ----- */
+function uBtn(){let b=$('ub');if(!b){$('cb').insertAdjacentHTML('beforebegin',"<button class='ib' id='ub'>👤</button>");b=$('ub');b.onclick=()=>U?acct():authUI()}b.title=U||'ورود';b.textContent=U?'😊':'👤'}
+function authUI(m){reg=0;mo(`<button class='ib mxb' onclick='mx()'>✕</button><h2>${m||'ورود / ثبت‌نام'}</h2><div class='st'><i class='on' id='t1' style='cursor:pointer' onclick='tab(0)'>ورود</i><i id='t2' style='cursor:pointer' onclick='tab(1)'>ثبت‌نام</i></div><div class='pf' style='flex-direction:column'><input id='au' placeholder='نام کاربری (انگلیسی)' autocomplete='username'><input id='ap2' type='password' placeholder='رمز عبور (حداقل ۶ حرف)'><input id='ph' placeholder='شماره موبایل ۰۹…' style='display:none'></div><button class='cta fw' id='ab' onclick='doAuth()'>ورود</button><p style='font-size:12px;color:var(--muted);margin-top:10px'>نسخه‌ی دمو؛ اطلاعات فقط روی همین مرورگر ذخیره می‌شود.</p>`)}
+function tab(r){reg=r;$('t1').classList.toggle('on',!r);$('t2').classList.toggle('on',!!r);$('ph').style.display=r?'':'none';$('ab').textContent=r?'ساخت حساب':'ورود'}
+async function doAuth(){const u=$('au').value.trim().toLowerCase(),p=$('ap2').value;if(!/^[a-z0-9_]{3,20}$/.test(u)||p.length<6)return toast('نام کاربری ۳ تا ۲۰ حرف انگلیسی و رمز حداقل ۶ حرف باشد');const h=await sha(p);
+ if(reg){const ph=$('ph').value.replace(/\s/g,'');if(!/^09\d{9}$/.test(ph))return toast('شماره موبایل معتبر نیست');if(users[u])return toast('این نام کاربری قبلاً گرفته شده');users[u]={h,ph}}else if(!users[u]||users[u].h!==h)return toast('نام کاربری یا رمز اشتباه است');
+ U=u;save();mx();uBtn();toast('خوش آمدید '+u+' 👋');if(pendingChk){pendingChk=0;chk()}}
+function acct(){const my=orders.filter(o=>o.u==U).slice().reverse();
+ mo(`<button class='ib mxb' onclick='mx()'>✕</button><h2>👤 ${E(U)}</h2><p style='color:var(--muted);font-size:13px'>${fa(my.length)} سفارش</p><div style='max-height:50vh;overflow:auto'>${my.map(o=>`<div style='border:1px solid var(--line);border-radius:14px;padding:10px;margin:8px 0;font-size:13px'><b>#${fa(o.id)}</b> <span class='bd ${SC[o.st][1]}'>${SC[o.st][0]}</span><br>${o.items.map(x=>E(x.n)+' ×'+fa(x.q)).join('، ')}<br><b>${fa(o.total)} تومان</b>${o.code?` <small>(کد ${E(o.code)})</small>`:''}<br><small style='color:var(--muted)'>${new Date(o.t).toLocaleDateString('fa-IR')}</small></div>`).join('')||'<p>هنوز سفارشی ندارید</p>'}</div><button class='cta fw' onclick='U=null;save();uBtn();mx();toast("خارج شدید")'>خروج از حساب</button>`)}
+
+/* ----- cart, promo codes, checkout ----- */
+function disc(s){const c=codes[promo];return c?Math.min(s,c.pct?Math.round(s*c.pct/100):c.amt):0}
+function total(){const s=cart.reduce((a,i)=>a+P[i][2],0);return[s,disc(s)]}
+function draw(){$('cnt').textContent=fa(cart.length);
+ $('items').innerHTML=cart.length?cart.map((i,k)=>`<div class="it"><em>${P[i][1]}</em><div>${P[i][0]}<br><b>${fa(P[i][2])} تومان</b></div><button onclick="rm(${k})">🗑</button></div>`).join(''):'<p style="text-align:center;color:var(--muted);margin-top:40px">سبد خرید خالی است 🛍️</p>';
+ const[s,d]=total();$('tot').textContent=fa(s-d)+' تومان';$('pmsg').textContent=d?`کد ${promo} اعمال شد: −${fa(d)} تومان`:''}
+$('items').insertAdjacentHTML('afterend',"<div class='pf' style='margin:0 0 6px'><input id='pcd' placeholder='کد تخفیف (AMIR10)' dir='ltr'><button class='add' style='width:auto;padding:0 14px' onclick='applyCode()'>اعمال</button></div><div id='pmsg' style='font-size:12px;color:#10b981;margin-bottom:8px'></div>");
+function applyCode(){const c=$('pcd').value.trim().toUpperCase();if(!codes[c])return toast('کد تخفیف نامعتبر است');promo=c;draw();toast('کد تخفیف اعمال شد 🎁')}
+function chk(){if(!cart.length)return toast('سبد خرید خالی است');tg(false);if(!U){pendingChk=1;return authUI('برای ثبت سفارش وارد شوید')}
+ mo(`<button class='ib mxb' onclick='mx()'>✕</button><h2>تکمیل سفارش</h2><div class='st'><i>۱ آدرس</i><i>۲ پرداخت</i><i>۳ تایید</i></div><div id='sb'></div>`);s1()}
+document.querySelector('#drawer .cta').onclick=chk;
+function s2(){const n=$('an').value.trim(),ph=$('ap').value.replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/\s/g,''),a=$('aa').value.trim();
+ if(n.length<3||!/^09\d{9}$/.test(ph)||a.length<8)return toast('نام، موبایل (۰۹…) و آدرس کامل را وارد کنید');
+ ci={n,ph,a};stp(1);const[s,d]=total();
+ $('sb').innerHTML=`<p style='margin:14px 0;line-height:2'>جمع: ${fa(s)}<br>تخفیف: ${fa(d)}<br><b>قابل پرداخت: ${fa(s-d)} تومان</b></p><label class='opt'><input type='radio' name='pm' checked> پرداخت در محل</label><label class='opt' style='margin-top:8px'><input type='radio' name='pm'> کارت‌به‌کارت</label><button class='cta fw' onclick='s3()'>ثبت نهایی سفارش</button>`}
+function s3(){const cnt={},[s,d]=total();cart.forEach(i=>cnt[i]=(cnt[i]||0)+1);
+ const o={id:++oid,u:U,n:ci.n,ph:ci.ph,a:ci.a,items:Object.entries(cnt).map(([i,q])=>({n:P[i][0],q,p:P[i][2]})),total:s-d,code:d?promo:'',st:'pending',t:Date.now()};
+ orders.push(o);Object.entries(cnt).forEach(([i,q])=>P[i][7]=Math.max(0,P[i][7]-q));cart=[];promo=null;draw();save();stp(2);
+ $('sb').innerHTML=`<div class='ok'><svg viewBox='0 0 52 52' width='96'><circle class='cc' cx='26' cy='26' r='24' fill='none' stroke='#10b981' stroke-width='3' pathLength='1'/><path class='cp' d='M14 27l8 8 16-17' fill='none' stroke='#10b981' stroke-width='4' pathLength='1'/></svg><h3>سفارش ثبت شد 🎉</h3><p style='color:var(--muted)'>شماره سفارش #${fa(o.id)} — در «حساب من» پیگیری کنید</p></div>`;cf()}
+
+/* ----- admin: username-only demo login, edit products, codes, orders, CSV export ----- */
+function admUI(){mo(`<button class='ib mxb' onclick='mx();location.hash=""'>✕</button><h2>ورود مدیر (دمو)</h2><p style='color:var(--muted);font-size:13px;margin:8px 0'>در نسخه‌ی دمو فقط نام کاربری لازم است.</p><div class='pf'><input id='an2' value='admin' placeholder='نام کاربری'></div><button class='cta fw' onclick='admIn()'>ورود به پنل</button>`)}
+function admIn(){if(!$('an2').value.trim())return toast('نام کاربری را وارد کنید');ADM=true;mx();route()}
+function route(){const o=location.hash==='#admin';if(o&&!ADM){A.classList.remove('open');document.body.style.overflow='';return admUI()}
+ A.classList.toggle('open',o);document.body.style.overflow=o?'hidden':'';if(o)adm()}
+onhashchange=route;
+function adm(){const t0=new Date().setHours(0,0,0,0),td=orders.filter(o=>o.t>=t0&&o.st!='canceled');
+ const L=[['فروش امروز (تومان)',td.reduce((a,o)=>a+o.total,0)],['سفارش‌های امروز',td.length],['کاربران ثبت‌نام‌شده',Object.keys(users).length],['سفارش‌های در انتظار',orders.filter(o=>o.st=='pending').length]];
+ document.querySelectorAll('.kc').forEach((k,i)=>{k.querySelector('small').textContent=L[i][0];k.querySelector('em').textContent='';k.querySelector('b').dataset.v=L[i][1]});count();ro();pl();cl()}
+function ro(){$('ot').innerHTML=orders.slice().reverse().slice(0,30).map(o=>`<tr><td>#${fa(o.id)}</td><td>${E(o.n)}<br><small style='color:var(--muted)'>${E(o.ph)} — ${E(o.a)}</small><br><small style='color:var(--muted)'>${o.items.map(x=>E(x.n)+' ×'+fa(x.q)).join('، ')}</small></td><td>${fa(o.total)}</td><td><select class='sl' ${o.st=='canceled'?'disabled':''} onchange='setSt(${o.id},this.value)'>${Object.entries(SC).map(([k,v])=>`<option value='${k}' ${k==o.st?'selected':''}>${v[0]}</option>`).join('')}</select></td></tr>`).join('')}
+function setSt(id,s){const o=orders.find(x=>x.id==id);if(!o||o.st=='canceled')return;if(s=='canceled')o.items.forEach(x=>{const p=P.find(r=>r[0]==x.n);if(p)p[7]+=x.q});o.st=s;save();adm();toast('وضعیت سفارش بروز شد')}
+function pl(){$('pt').innerHTML=P.map((p,i)=>p[5]?'':`<tr><td style='font-size:22px'>${p[1]}</td><td>${p[0]}</td><td>${fa(p[2])}</td><td>${fa(p[3])}٪</td><td>${CT[p[6]]}</td><td><button class='ib' style='width:34px;height:34px;font-size:14px' onclick='ed(${i})'>✏️</button> <button class='ib' style='width:34px;height:34px;font-size:14px' onclick='P[${i}][5]=1;save();pl();render($("q").value.trim())'>🗑</button></td></tr>`).join('')}
+function ed(i){const p=P[i];edi=i;$('pn').value=p[0];$('pe').value=p[1];$('pp').value=p[2];$('pd').value=p[3];$('pc').value=p[6];$('pa').textContent='ذخیره';$('pn').focus()}
+$('pa').insertAdjacentHTML('beforebegin',`<select id='pc' class='sl'>${CT.slice(1).map((c,k)=>`<option value='${k+1}'>${c}</option>`).join('')}</select>`);
+$('pa').onclick=()=>{const n=$('pn').value.trim(),pr=+$('pp').value,dc=Math.min(90,Math.max(0,+$('pd').value||0));
+ if(n.length<2||!(pr>=1000))return toast('نام و قیمت (حداقل ۱٬۰۰۰) را درست وارد کنید');
+ const row=[E(n),E($('pe').value)||'📦',pr,dc,edi<0?GR[P.length%4]:P[edi][4],0,+$('pc').value,edi<0?50:P[edi][7]];
+ if(edi<0)P.push(row);else P[edi]=row;edi=-1;$('pa').textContent='افزودن';['pn','pp','pd'].forEach(k=>$(k).value='');save();pl();render($('q').value.trim());toast('ذخیره شد ✅')};
+$('pt').closest('.pn').insertAdjacentHTML('afterend',"<div class='pn' style='margin-top:14px'><h3>کدهای تخفیف</h3><div class='pf'><input id='cc' placeholder='کد (مثلاً EID20)' dir='ltr' maxlength='12'><input id='cp' type='number' placeholder='درصد تخفیف' style='max-width:130px'><button class='add' style='width:auto;padding:0 18px' onclick='addCode()'>افزودن</button></div><table><tbody id='ct'></tbody></table></div>");
+function cl(){$('ct').innerHTML=Object.entries(codes).map(([k,v])=>`<tr><td dir='ltr'><b>${E(k)}</b></td><td>${v.pct?fa(v.pct)+'٪':fa(v.amt)+' تومان'}</td><td><button class='ib' style='width:34px;height:34px;font-size:14px' onclick='delete codes["${k}"];save();cl()'>🗑</button></td></tr>`).join('')}
+function addCode(){const c=$('cc').value.trim().toUpperCase(),p=+$('cp').value;if(!/^[A-Z0-9]{3,12}$/.test(c)||!(p>=1&&p<=90))return toast('کد ۳ تا ۱۲ حرف/عدد انگلیسی و درصد ۱ تا ۹۰');codes[c]={pct:p};$('cc').value=$('cp').value='';save();cl();toast('کد اضافه شد')}
+$('ot').closest('.pn').querySelector('h3').insertAdjacentHTML('beforeend',"<button class='add' style='width:auto;padding:0 12px;margin-right:10px;font-size:13px' onclick='exp()'>⬇ خروجی اکسل</button>");
+async function exp(){
+ const rows=[['شماره','تاریخ','مشتری','کاربر','موبایل','آدرس','محصولات','مبلغ (تومان)','کد تخفیف','وضعیت']].concat(orders.map(o=>[o.id,new Date(o.t).toLocaleString('fa-IR'),o.n,o.u,o.ph,o.a,o.items.map(x=>x.n+' ×'+x.q).join(' | '),o.total,o.code,SC[o.st][0]]));
+ const csv='\ufeff'+rows.map(r=>r.map(c=>{let s=String(c??'').replace(/"/g,'""');if(/^[=+\-@]/.test(s))s="'"+s;return '"'+s+'"'}).join(',')).join('\r\n');
+ try{const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download='amirkala-orders.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);toast('فایل اکسل (CSV) آماده شد ✅')}catch{toast('ذخیره‌ی فایل ممکن نشد')}}
+
+/* ----- homepage entry button, footer, init ----- */
+$('ad').textContent='📊 پنل مدیر';$('ad').style.cssText='width:auto;padding:0 14px;font-size:13px;font-family:inherit';
+document.querySelector('.hero .cta').insertAdjacentHTML('afterend',"<button class='cta' style='margin-right:10px;background:rgba(255,255,255,.18);color:#fff;animation:none' onclick='location.hash=\"admin\"'>🔑 ورود به پنل مدیریت (دمو)</button>");
+document.querySelector('footer').innerHTML="ساخته شده توسط موسوی<br>هرگونه کپی‌برداری ممنوع است. با تشکر<br><a style='cursor:pointer;opacity:.6;font-size:12px' onclick=\"try{localStorage.removeItem('"+KEY+"')}catch{};location.reload()\">بازنشانی دمو</a>";
+/* ----- v3: SVG product art instead of emoji + real photo upload ----- */
+const IC=[
+`<rect x='20' y='6' width='24' height='52' rx='5' fill='@d'/><rect x='23' y='11' width='18' height='38' rx='2' fill='@w'/><circle cx='32' cy='54' r='1.8' fill='@w'/>`,
+`<path d='M12 38V32a20 20 0 0 1 40 0v6' fill='none' stroke='@d' stroke-width='5' stroke-linecap='round'/><rect x='8' y='36' width='12' height='18' rx='5' fill='@d'/><rect x='44' y='36' width='12' height='18' rx='5' fill='@d'/><rect x='11' y='40' width='3' height='9' rx='1.5' fill='@w'/><rect x='50' y='40' width='3' height='9' rx='1.5' fill='@w'/>`,
+`<rect x='22' y='4' width='20' height='10' rx='3' fill='@d'/><rect x='22' y='50' width='20' height='10' rx='3' fill='@d'/><rect x='16' y='12' width='32' height='40' rx='10' fill='@d'/><rect x='20' y='16' width='24' height='32' rx='7' fill='@w'/><path d='M32 22v10l6 4' stroke='@d' stroke-width='3' fill='none' stroke-linecap='round'/>`,
+`<rect x='12' y='14' width='40' height='28' rx='3' fill='@d'/><rect x='15' y='17' width='34' height='22' rx='1.5' fill='@w'/><path d='M6 46h52l-4 6H10z' fill='@d'/>`,
+`<path d='M6 44c0-6 4-8 8-9l8-2 4-8 6 4 10 2c6 1 12 4 12 12v3H6z' fill='@d'/><rect x='6' y='46' width='52' height='6' rx='3' fill='@w'/><path d='M26 28l4 5M32 30l4 5' stroke='@w' stroke-width='2.5' stroke-linecap='round'/>`,
+`<rect x='6' y='18' width='52' height='34' rx='7' fill='@d'/><path d='M22 18l3-7h14l3 7z' fill='@d'/><circle cx='32' cy='35' r='12' fill='@w'/><circle cx='32' cy='35' r='7' fill='@d'/><circle cx='49' cy='26' r='2.5' fill='@w'/>`,
+`<path d='M12 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z' fill='@d'/><path d='M46 26h4a7 7 0 0 1 0 14h-4' fill='none' stroke='@d' stroke-width='4'/><path d='M22 6c-3 4 3 6 0 10M32 6c-3 4 3 6 0 10M42 6c-3 4 3 6 0 10' stroke='@d' stroke-opacity='.5' stroke-width='3' fill='none' stroke-linecap='round'/>`,
+`<path d='M16 20h32a12 12 0 0 1 12 12l2 12a7 7 0 0 1-12 5l-6-7H20l-6 7a7 7 0 0 1-12-5l2-12a12 12 0 0 1 12-12z' fill='@d'/><path d='M20 28v8M16 32h8' stroke='@w' stroke-width='3' stroke-linecap='round'/><circle cx='42' cy='30' r='2.5' fill='@w'/><circle cx='48' cy='35' r='2.5' fill='@w'/>`,
+`<path d='M24 12a8 8 0 0 1 16 0' fill='none' stroke='@d' stroke-width='4'/><rect x='12' y='12' width='40' height='46' rx='14' fill='@d'/><rect x='20' y='34' width='24' height='16' rx='5' fill='@w'/><path d='M20 24h24' stroke='@w' stroke-width='3' stroke-linecap='round'/>`,
+`<rect x='26' y='4' width='12' height='10' rx='2' fill='@d'/><rect x='29' y='14' width='6' height='6' fill='@d'/><rect x='14' y='20' width='36' height='38' rx='9' fill='@d'/><rect x='20' y='30' width='24' height='18' rx='4' fill='@w'/><path d='M26 39h12' stroke='@d' stroke-width='3' stroke-linecap='round'/>`,
+`<circle cx='14' cy='42' r='10' fill='none' stroke='@d' stroke-width='4'/><circle cx='50' cy='42' r='10' fill='none' stroke='@d' stroke-width='4'/><path d='M14 42l12-18h16l8 18M26 24l10 18h-22M22 18h8M40 24l-2-8h8' fill='none' stroke='@d' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/>`,
+`<path d='M8 12h22a6 6 0 0 1 2 .5V54a6 6 0 0 0-2-.5H8z' fill='@d'/><path d='M56 12H34a6 6 0 0 0-2 .5V54a6 6 0 0 1 2-.5h22z' fill='@d' fill-opacity='.8'/><path d='M14 22h12M14 30h12M38 22h12M38 30h12' stroke='@w' stroke-width='3' stroke-linecap='round'/>`,
+`<path d='M32 6l22 12v28L32 58 10 46V18z' fill='@d'/><path d='M32 6l22 12-22 12-22-12z' fill='@w' fill-opacity='.9'/><path d='M32 30v28' stroke='@w' stroke-width='3'/>`,
+`<path d='M32 4l6 20 20 8-20 8-6 20-6-20-20-8 20-8z' fill='@d'/>`];
+const ic=(i,d='rgba(35,24,90,.9)',w='#fff')=>`<svg viewBox='0 0 64 64' aria-hidden='true'>${(IC[i]||IC[12]).replace(/@d/g,d).replace(/@w/g,w)}</svg>`;
+P.forEach((p,i)=>{if(p[1].charAt(0)!=='<')p[1]=ic(Math.min(i,12))});save();
+const CIX={'همه':12,'دیجیتال':0,'مد و ورزش':4,'خانه و آشپزخانه':6,'زیبایی':9,'کتاب':11};
+function cats(){$('cats').innerHTML=CT.map(c=>`<div class="cat" style="${c==cat?'border-color:var(--brand2);box-shadow:var(--shadow)':''}" onclick="cat='${c}';cats();render($('q').value.trim())"><i>${ic(CIX[c],'#7c3aed','#ff2e63')}</i>${c}</div>`).join('')}
+const hf=(s,i)=>{const e=document.querySelector(s);if(e)e.innerHTML=ic(i,'#fff','rgba(124,58,237,.9)')};hf('.float:not(.f2):not(.f3)',0);hf('.f2',1);hf('.f3',13);
+function add(i){cart.push(i);draw();toast('به سبد خرید اضافه شد ✅');const c=$('cnt');c.classList.add('pop');setTimeout(()=>c.classList.remove('pop'),250)}
+function readImg(f){return new Promise((ok,no)=>{if(!f)return ok('');if(!/^image\/(png|jpe?g|webp)$/.test(f.type))return no(new Error('فقط PNG، JPG یا WebP'));if(f.size>8e6)return no(new Error('حداکثر حجم عکس ۸ مگابایت است'));const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const k=Math.min(1,520/Math.max(im.width,im.height)),c=document.createElement('canvas'),x=c.getContext('2d');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(im,0,0,c.width,c.height);ok(c.toDataURL('image/jpeg',.82))};im.onerror=()=>no(new Error('این فایل تصویر معتبر نیست'));im.src=r.result};r.onerror=()=>no(new Error('خواندن فایل ممکن نشد'));r.readAsDataURL(f)})}
+$('pe').style.display='none';
+$('pe').insertAdjacentHTML('afterend',"<input id='pf' type='file' accept='image/png,image/jpeg,image/webp' title='عکس محصول' style='max-width:210px'>");
+function pl(){$('pt').innerHTML=P.map((p,i)=>p[5]?'':`<tr><td><span class='th'>${p[1]}</span></td><td>${p[0]}</td><td>${fa(p[2])}</td><td>${fa(p[3])}٪</td><td>${CT[p[6]]}</td><td><button class='ib' style='width:34px;height:34px;font-size:14px' onclick='ed(${i})'>✏️</button> <button class='ib' style='width:34px;height:34px;font-size:14px' onclick='P[${i}][5]=1;save();pl();render($("q").value.trim())'>🗑</button></td></tr>`).join('')}
+function ed(i){const p=P[i];edi=i;$('pn').value=p[0];$('pp').value=p[2];$('pd').value=p[3];$('pc').value=p[6];$('pa').textContent='ذخیره';$('pn').focus();toast('برای تغییر عکس، فایل جدید انتخاب کنید')}
+$('pa').onclick=async()=>{const n=$('pn').value.trim(),pr=+$('pp').value,dc=Math.min(90,Math.max(0,+$('pd').value||0));
+ if(n.length<2||!(pr>=1000))return toast('نام و قیمت (حداقل ۱٬۰۰۰) را درست وارد کنید');
+ let im='';try{im=await readImg($('pf').files[0])}catch(e){return toast(e.message)}
+ const row=[E(n),im?`<img src="${im}" alt="">`:(edi>=0?P[edi][1]:ic(12)),pr,dc,edi<0?GR[P.length%4]:P[edi][4],0,+$('pc').value,edi<0?50:P[edi][7]];
+ if(edi<0)P.push(row);else P[edi]=row;edi=-1;$('pa').textContent='افزودن';['pn','pp','pd','pf'].forEach(k=>$(k).value='');save();pl();render($('q').value.trim());toast('ذخیره شد ✅')};
+cats();render($('q').value.trim());draw();uBtn();route();
+
+</script>
 </body>
 </html>
